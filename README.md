@@ -7,3 +7,7 @@ The idea is to provide an easy interface to [mpd](http://mpd.wikia.com) for mult
 Features
 --------
 Just a basic django app so far.
+
+Credits
+-------
+lanmpd uses the [fantastic silk icons](http://www.famfamfam.com/lab/icons/silk/).
