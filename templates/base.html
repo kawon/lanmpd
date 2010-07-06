@@ -4,7 +4,10 @@
 	<head>
 		<title>{% block title %}LanMPD{% endblock %}</title>
 		<link rel="stylesheet" href="/media/css/style.css" />
-
+    <script type="text/javascript" src="/media/javascript/jquery.js" />
+    <script type="text/javascript">
+      {% block javascript %}{% endblock %}
+    </script>
 	</head>
 
 	<body>

@@ -2,5 +2,11 @@
 
 {% block title %}LanMPD{% endblock %}
 
-{% block content %}Hello, World!{% endblock %}
+{% block javascript %}
+  $(document).ready(function () {
+    alert($("#greet").html());
+  });  
+{% endblock %}
+
+{% block content %}<p id="greet">Hello, World!</p>{% endblock %}
 
