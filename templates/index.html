@@ -4,9 +4,15 @@
 
 {% block javascript %}
   $(document).ready(function () {
-    alert($("#greet").html());
   });  
 {% endblock %}
 
-{% block content %}<p id="greet">Hello, World!</p>{% endblock %}
+{% block content %}
+  <ul id="controls">
+    <li><a href="/command/previous"><img src="/media/images/icons/control_rewind.png" alt="previous" width="16" height="16" /></li>
+    <li><a href="/command/play"><img src="/media/images/icons/control_play.png" alt="play" width="16" height="16" /></li>
+    <li><a href="/command/stop"><img src="/media/images/icons/control_stop.png" alt="stop" width="16" height="16" /></li>
+    <li><a href="/command/next"><img src="/media/images/icons/control_fastforward.png" alt="next" width="16" height="16" /></li>
+  </ul>
+{% endblock %}
 

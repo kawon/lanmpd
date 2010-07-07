@@ -5,3 +5,14 @@ body {
 	color: #ddd;
 	background-color: #1e1f1f;
 }
+
+ul#controls {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  display: inline;
+}
+ul#controls li {
+  float: left;
+  padding: 0.5em;
+}
