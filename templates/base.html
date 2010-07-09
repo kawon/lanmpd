@@ -3,6 +3,10 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head>
 		<title>{% block title %}LanMPD{% endblock %}</title>
+		
+		<center><h1>{% block headline %}{% endblock %}</h1></center>
+
+
 		<link rel="stylesheet" href="/media/css/style.css" />
     <script type="text/javascript" src="/media/javascript/jquery.js" />
     <script type="text/javascript">
@@ -10,9 +14,10 @@
     </script>
 	</head>
 
-  <body>
-    <h1 id="header">lanmpd</h1>
-		{% block content %}{% endblock %}	
+	<body>
+		{% block content %}{% endblock %}
+
+	
 	</body>
 </html>
 
